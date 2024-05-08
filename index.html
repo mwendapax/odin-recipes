@@ -3,30 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Odin Recipes</title>
 </head>
-<body class="bg">
-    <h1 class="texth">Odin Recipes</h1>
-    <!--The images have no background by default making them blend in with the rest of the page-->
-    
-    <div id="bground">
-        <h3>Available Recipes</h3>
-    <ul>
-        <a href="recipes/lol.html">
-            <img src="./img/lol.png" alt="clown face in a plate" height="170" width="170">
-            <li>Laugh-Out-Loud Dish</li>
-        </a>
-        <a href="recipes/pilau.html">
-            <img src="./img/pilau.png" alt="a plate of kenyan pilau" height="170" width="170">
-            <li>Kenyan Pilau</li>
-        </a>
-        <a href="recipes/pasta.html">
-            <img src="img/dish.png" alt="A plate of chicken Alfredo pasta" height="190" width="190">
-            <li>Chicken Pasta</li>
-        </a>
-    </ul>
+<body>
+    <div class="nav-bar">
+        <div class="nav-item">
+            <h1>Odin Recipes</h1>
+            <p>Explore some recipes by Odin!</p>
+        </div>
     </div>
-    
+    <div class="menu">
+        <div class="menu-item">
+            <div class="item">
+                <div class="item-child">
+                    <a href="./recipes/lol.html" target="_blank">
+                    <img src="./img/lol.png" alt="funny in dish">Funny Recipe </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-child">
+                    <a href="./recipes/pilau.html" target="_blank">
+                        <img src="./img/pilau.png" alt="a plate of Kenyan pilau">Kenyan Pilau </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-child">
+                    <a href="./recipes/pasta.html" target="_blank">
+                        <img src="./img/pasta.png" alt="a plate of pasta">Chicken Pasta</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Proudly Odin!</p>
+    </div>
 </body>
 </html>
